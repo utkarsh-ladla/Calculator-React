@@ -1,0 +1,41 @@
+* {
+    background-color: beige;
+  }
+  
+  .container {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: wheat;
+  }
+  
+  .display {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 240px;
+    text-align: right;
+  }
+  
+  input {
+    font-size: 24px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .result {
+    font-size: 28px;
+    color: green;
+  }
+  
+  .buttonGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
